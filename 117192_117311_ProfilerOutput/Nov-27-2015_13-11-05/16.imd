@@ -1,0 +1,15 @@
+﻿[C:\Windows\System32\drivers\watchdog.sys]
+BASE=0xf880049d3000
+SIZE=65536
+SAMPS=432
+ModuleType=1
+NUMSUBSECTIONS=1
+
+[SUB]
+SYMBOL=WdLogNewEntry5
+BASEADDR=0xf880049d4088
+LINECOUNT=1
+5780,2828,432,8,[0 13] 1,[0 14] 407,[0 15] 19,[0 23] 1,[0 24] 1,[0 26] 1,[0 30] 1,[0 41] 1,0x57
+[SUB_END]
+[END]
+

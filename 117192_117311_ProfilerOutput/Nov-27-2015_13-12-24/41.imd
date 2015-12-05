@@ -1,0 +1,14 @@
+﻿[C:\Windows\system32\drivers\HTTP.sys]
+BASE=0xf88007c4c000
+SIZE=0
+SAMPS=1
+ModuleType=1
+NUMSUBSECTIONS=1
+
+[SUB]
+BASEADDR=0xf88007c4c000
+LINECOUNT=1
+7012,1088,1,1,[0 61] 1,0x10e9
+[SUB_END]
+[END]
+

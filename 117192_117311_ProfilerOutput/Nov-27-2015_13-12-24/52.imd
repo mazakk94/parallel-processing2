@@ -1,0 +1,14 @@
+﻿[C:\Windows\system32\drivers\portcls.sys]
+BASE=0xf880034e8000
+SIZE=0
+SAMPS=2
+ModuleType=1
+NUMSUBSECTIONS=1
+
+[SUB]
+BASEADDR=0xf880034e8000
+LINECOUNT=1
+7012,3564,2,2,[3 64] 1,[3 67] 1,0x2b94
+[SUB_END]
+[END]
+

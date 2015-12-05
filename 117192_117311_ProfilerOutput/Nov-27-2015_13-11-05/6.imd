@@ -1,0 +1,15 @@
+﻿[C:\Windows\SysWOW64\user32.dll]
+BASE=0x75000000
+SIZE=1048576
+SAMPS=1
+ModuleType=1
+NUMSUBSECTIONS=1
+
+[SUB]
+SYMBOL=User32InitializeImmEntryTable
+BASEADDR=0x7501bf14
+LINECOUNT=1
+5780,4332,1,1,[3 61] 1,0xfce
+[SUB_END]
+[END]
+

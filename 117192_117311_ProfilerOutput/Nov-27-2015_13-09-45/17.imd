@@ -1,0 +1,22 @@
+﻿[C:\Windows\System32\wow64.dll]
+BASE=0x74a30000
+SIZE=258048
+SAMPS=27
+ModuleType=1
+NUMSUBSECTIONS=2
+
+[SUB]
+SYMBOL=Wow64RaiseException
+BASEADDR=0x74a3a154
+LINECOUNT=1
+4540,6324,9,7,[2 0] 1,[2 2] 1,[2 3] 1,[2 5] 1,[2 9] 1,[2 10] 1,[2 12] 3,0x98c
+[SUB_END]
+
+[SUB]
+SYMBOL=Wow64EmulateAtlThunk
+BASEADDR=0x74a3da14
+LINECOUNT=1
+4540,6324,18,8,[2 13] 1,[2 14] 8,[2 15] 4,[2 23] 1,[2 25] 1,[2 26] 1,[2 30] 1,[2 40] 1,0xdf2e
+[SUB_END]
+[END]
+

@@ -1,0 +1,6 @@
+Czas wykonania programu:  18.3120 sec (0.0010 sec rozdzielczosc pomiaru) - sekwencyjnie release
+
+Czas wykonania programu:  18.2990 sec (0.0010 sec rozdzielczosc pomiaru)
+Czas wykonania programu:  17.8950 sec (0.0010 sec rozdzielczosc pomiaru)
+Czas wykonania programu:  17.9850 sec (0.0010 sec rozdzielczosc pomiaru)
+Czas wykonania programu:  17.8150 sec (0.0010 sec rozdzielczosc pomiaru)

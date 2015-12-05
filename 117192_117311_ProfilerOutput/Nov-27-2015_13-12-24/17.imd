@@ -1,0 +1,15 @@
+﻿[C:\Windows\System32\wow64.dll]
+BASE=0x74a30000
+SIZE=258048
+SAMPS=1
+ModuleType=1
+NUMSUBSECTIONS=1
+
+[SUB]
+SYMBOL=Wow64SystemServiceEx
+BASEADDR=0x74a3cf64
+LINECOUNT=1
+7012,1088,1,1,[3 61] 1,0x13b
+[SUB_END]
+[END]
+

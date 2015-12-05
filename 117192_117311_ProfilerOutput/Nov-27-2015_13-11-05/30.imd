@@ -1,0 +1,14 @@
+﻿[C:\Windows\system32\DRIVERS\klhk.sys]
+BASE=0xf880048f7000
+SIZE=0
+SAMPS=9
+ModuleType=1
+NUMSUBSECTIONS=1
+
+[SUB]
+BASEADDR=0xf880048f7000
+LINECOUNT=1
+5780,4332,9,7,[3 0] 1,[3 2] 1,[3 3] 1,[3 5] 1,[3 9] 1,[3 10] 1,[3 12] 3,0x23e0
+[SUB_END]
+[END]
+

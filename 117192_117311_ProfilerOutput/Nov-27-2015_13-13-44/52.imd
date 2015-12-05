@@ -1,0 +1,15 @@
+﻿[C:\Windows\system32\drivers\portcls.sys]
+BASE=0xf880034e8000
+SIZE=249856
+SAMPS=1
+ModuleType=1
+NUMSUBSECTIONS=1
+
+[SUB]
+SYMBOL=PcUnregisterIoTimeout
+BASEADDR=0xf880034ee230
+LINECOUNT=1
+4780,3852,1,1,[3 73] 1,0x66f
+[SUB_END]
+[END]
+
