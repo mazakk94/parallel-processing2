@@ -9,6 +9,9 @@
 #include <windows.h>
 #include "omp.h"
 #include <cstdlib>
+#include <iostream>
+
+using namespace std;
 
 #define USE_MULTIPLE_THREADS true
 #define MAXTHREADS 128
@@ -23,8 +26,9 @@ float matrix_b[ROWS][COLUMNS];    // prawy operand
 float matrix_r[ROWS][COLUMNS];    // wynik
 
 float matrix_check[ROWS][COLUMNS];
-
 FILE *result_file;
+
+
 
 void initialize_matrices()
 {
@@ -51,6 +55,26 @@ void initialize_matrices_check()
 	}
 }
 
+void copy_matrix(){
+	for (int i = 0; i < ROWS; i++) {
+		for (int j = 0; j < COLUMNS; j++) {
+			matrix_check[i][j] = matrix_r[i][j];
+		}
+	}
+}
+
+void check_matrix(){
+	for (int i = 0; i < ROWS; i++) 
+		for (int j = 0; j < COLUMNS; j++) 
+			if (matrix_check[i][j] != matrix_r[i][j]){
+				printf("cos sie nie zgadza!");
+				break;
+			}
+		
+	
+	printf("wyniki sa ok");
+}
+
 void initialize_matricesZ()
 {
 	// zdefiniowanie zawarosci poczatkowej macierzy
@@ -65,7 +89,7 @@ void initialize_matricesZ()
 void print_result()
 {
 	// wydruk wyniku
-	///*
+	/*
 	for (int i = 0; i < ROWS; i++) {
 		for (int j = 0; j < COLUMNS; j++) {
 			fprintf(result_file, "%6.1f ", matrix_a[i][j]);
@@ -80,7 +104,7 @@ void print_result()
 		}
 		fprintf(result_file, "\n");
 	}
-	//*/
+	/*
 	fprintf(result_file, "\n");
 	fprintf(result_file, "\n");
 	for (int i = 0; i < ROWS; i++) {
@@ -88,7 +112,7 @@ void print_result()
 			fprintf(result_file, "%6.1f ", matrix_r[i][j]);
 		}
 		fprintf(result_file, "\n");
-	}
+	}*/
 }
 
 
@@ -199,7 +223,9 @@ int main(int argc, char* argv[])
 	printf("KJI sekwencyjnie\n");
 	print_elapsed_time();
 	print_result();
-
+	copy_matrix();
+	cout << check_matrix << endl;
+	fprintf(result_file, "\n");
 
 	initialize_matricesZ();
 	start = (double)clock() / CLK_TCK;
